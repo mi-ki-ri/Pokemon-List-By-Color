@@ -5,6 +5,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/Pokemon-List-By-Color/'
+  } ,
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'pokemon-from-color',
